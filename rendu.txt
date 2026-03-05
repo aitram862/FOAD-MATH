@@ -1,0 +1,48 @@
+Pourquoi la standardisation aide la descente de gradient ?
+La standardisation permet de mettre les variables sur la même échelle
+
+
+
+Que se passe-t-il si on ne normalise pas ?
+Si on ne normalise pas les données :
+les variables n'ont pas la même échelle
+certaines valeurs deviennent très grandes
+la descente de gradient peut devenir instable et
+ converger très lentement.
+
+
+
+la relation semble-t-elle linéaire ?
+ La relation entre la surface et le prix semble globalement croissante mais
+  pas parfaitement linéaire.
+
+
+  Quels sont les poids du modèle
+  modèle possède 3 poids sont
+  .a
+  .b
+  .c
+
+Pourquoi ce modèle est plus flexible ?
+Le modèle linéaire y=ax+b représente une droite
+Cela veut dire que la relation entre x et 𝑦
+y est linéaire.
+Le modèle quadratique 𝑦=𝑎𝑥2+bx+c représente une courbe 
+le modèle peut suivre une forme courbée et donc mieux représenter des
+ relations qui ne sont pas parfaitement linéaires.
+
+
+ Différence entre MSE et RMSE ?
+ La MSE mesure l’erreur moyenne au carré entre la prédiction et 
+ la vraie valeur.
+La RMSE est la racine de la MSE et elle est plus facile à comprendre
+ car elle est dans la même unité que les données.
+
+
+
+
+
+La dérivée de (y^−y)2 à par rapport à y^	​
+  est 2( y^−y)=2e.
+Les dérivées de y^ par rapport à a,b,c  sont 
+x2,x et 1
